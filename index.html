@@ -1,10 +1,46 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>College Management System</title>
+    <title>University Management System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Our College Management System</h1>
-    <p>This is a simple project for managing college activities.</p>
+    <header>
+        <img src="university-building.jpg" alt="University Building" id="university-image">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#departments">Departments</a>
+                    <ul>
+                        <li><a href="#btech">B.Tech</a>
+                            <ul>
+                                <li><a href="#cse">CSE</a></li>
+                                <li><a href="#ee">EE</a></li>
+                                <!-- Add other departments here -->
+                            </ul>
+                        </li>
+                        <!-- Repeat for M.Tech, MBA, etc. -->
+                    </ul>
+                </li>
+                <li><a href="student-login.html">Student Login</a></li>
+                <li><a href="faculty-login.html">Faculty Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About the University</h2>
+        <p>Information about the university.</p>
+    </section>
+
+    <!-- Add sections for Departments, B.Tech, M.Tech, MBA -->
+
+    <footer>
+        <p>University Contact Information</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
